@@ -169,7 +169,7 @@ Srho.func.old <- function(x1, x2, h1, h2, Hbiv, method = c("integral",
          fDim = 1, absError=0,...)$integral)
     } else if(method == "summation") {
 
-        Srho.sum <- .Fortran("srhosum",as.double(x1),as.double(x1),as.double(x2),as.integer(length(x1)),
+        Srho.sum <- .Fortran("srhosum",as.double(x1),as.double(x2),as.integer(length(x1)),
             as.double(h1),as.double(h2),as.double(h1.biv),as.double(h2.biv),S=double(1),PACKAGE='tseriesEntropy')$S;
         return(Srho.sum)
    }
