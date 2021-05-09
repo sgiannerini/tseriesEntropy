@@ -24,8 +24,8 @@ surrogate.SA(x, nlag, nsurr, Te = 0.0015, RT = 0.9, eps.SA = 0.01, nsuccmax = 30
   \item{che}{after \code{che*2N} global iterations the algorithm starts again.}
 }
 \details{
-\code{N} is the length of the series \code{x}. Sensible (N-dependent) defaults are derived for the parameters of the SA
-algorithm, there should not be the need to change them.
+Let \code{N} be the length of the series \code{x}. Sensible (\code{N}-dependent) defaults are derived for the parameters of the
+algorithm, there should not be the need to change them. In case, the user could try increasing \code{eps.SA}.
 }
 \value{
 A list with the following elements:
