@@ -11,12 +11,12 @@ Simulated Annealing. The parallel version requires \code{parallel}.}
 Trho.test.SA(x, y, lag.max = 10,  B = 100, plot = TRUE, quant = c(0.95, 0.99),
  bw = c("reference","mlcv", "lscv", "scv", "pi"), bdiag=TRUE,
  method =c("integral","summation"), tol=1e-03, nlag=trunc(length(x)/4),
- Te=0.0015, RT=0.9, eps.SA=0.01, nsuccmax=30, nmax=300, che=100000,...) 
+ Te=0.0015, RT=0.9, eps.SA=0.05, nsuccmax=30, nmax=300, che=100000,...) 
  
 Trho.test.SA.p(x, y, lag.max = 10,  B = 100, plot = TRUE, quant = c(0.95, 0.99),
  bw = c("reference","mlcv", "lscv", "scv", "pi"), bdiag=TRUE,
   method =c("integral","summation"), tol=1e-03, nlag=trunc(length(x)/4), Te=0.0015,
- RT=0.9, eps.SA=0.01, nsuccmax=30, nmax=300, che=100000, nwork=detectCores(),...)
+ RT=0.9, eps.SA=0.05, nsuccmax=30, nmax=300, che=100000, nwork=detectCores(),...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

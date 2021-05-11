@@ -345,7 +345,7 @@ reference.biv <- function(x,y,bdiag){
 }
 ## **************************************************************************************************
 
-surrogate.SA <- function(x,nlag=trunc(length(x)/4),nsurr,Te=0.0015,RT=0.9,eps.SA=0.01,nsuccmax=30,nmax=300,che=100000){
+surrogate.SA <- function(x,nlag=trunc(length(x)/4),nsurr,Te=0.0015,RT=0.9,eps.SA=0.05,nsuccmax=30,nmax=300,che=100000){
 
     ## Wrapper for the F90 routine SURROGATEACF
     ## Given a time series in input x computes nsurr surrogates through Simulated Annealing
@@ -374,7 +374,7 @@ surrogate.SA <- function(x,nlag=trunc(length(x)/4),nsurr,Te=0.0015,RT=0.9,eps.SA
 
 Srho.test.SA <- function(x, y, lag.max = 10,  B = 100, plot = TRUE, quant = c(0.95, 0.99),
 bw = c("reference", "mlcv", "lscv", "scv", "pi"), bdiag=TRUE, method =c("integral","summation"), tol=1e-03,
-nlag=trunc(length(x)/4),Te=0.0015,RT=0.9,eps.SA=0.01,nsuccmax=30,nmax=300,che=100000,...)
+nlag=trunc(length(x)/4),Te=0.0015,RT=0.9,eps.SA=0.05,nsuccmax=30,nmax=300,che=100000,...)
 {
     if(any(quant<=0|quant>=1)) stop("elements of quant must lie in ]0,1[");
     if(length(quant)==1){
@@ -760,7 +760,7 @@ order.max=NULL, fit.method=c("yule-walker", "burg", "ols", "mle", "yw"),smoothed
 
 Trho.test.SA <- function(x, y, lag.max = 10,  B = 100, plot = TRUE, quant = c(0.95, 0.99),
 bw = c("reference", "mlcv", "lscv", "scv", "pi"), bdiag=TRUE, method =c("integral","summation"), tol=1e-03,
-nlag=trunc(length(x)/4),Te=0.0015,RT=0.9,eps.SA=0.01,nsuccmax=30,nmax=300,che=100000,...)
+nlag=trunc(length(x)/4),Te=0.0015,RT=0.9,eps.SA=0.05,nsuccmax=30,nmax=300,che=100000,...)
 {
     if(any(quant<=0|quant>=1)) stop("elements of quant must lie in ]0,1[");
     if(length(quant)==1){

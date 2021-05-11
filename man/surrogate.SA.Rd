@@ -8,7 +8,7 @@ Each surrogate series is a constrained random permutation having the same autoco
 The surrogates can be used for testing for non linearity in time series.
 }
 \usage{
-surrogate.SA(x, nlag, nsurr, Te = 0.0015, RT = 0.9, eps.SA = 0.01, nsuccmax = 30,
+surrogate.SA(x, nlag, nsurr, Te = 0.0015, RT = 0.9, eps.SA = 0.05, nsuccmax = 30,
  nmax = 300, che = 1e+05)
 }
 %- maybe also 'usage' for other objects documented here.
