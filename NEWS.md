@@ -18,6 +18,8 @@
 
 - Added the horizontal line at 0 in the plot of `Srho-class` consistently with that of `Srho.test-class`.  
 
+- In `surrogate.SA` changed the default value eps.SA to 0.05.
+
 ## Changes in version 0.6-1
     
 - The integration routine name `adaptIntegrate` has been changed to its alias `hcubature` to comply with the change in the `cubature` package. 
