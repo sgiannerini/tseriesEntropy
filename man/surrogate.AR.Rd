@@ -28,7 +28,7 @@ A list with the following elements:
 \references{
 Giannerini S., Maasoumi E., Bee Dagum E., (2015), Entropy testing
 for nonlinear serial dependence in time series, \emph{Biometrika}, \bold{102(3)}, 661--675
-\url{http://doi.org/10.1093/biomet/asv007}.
+\doi{10.1093/biomet/asv007}.
 
 Buhlmann, P., (1997). Sieve bootstrap for time series.
 \emph{Bernoulli}, \bold{3}, 123--148.

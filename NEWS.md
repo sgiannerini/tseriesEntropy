@@ -20,6 +20,8 @@
 
 - In `surrogate.SA` changed the default value eps.SA to 0.05.
 
+- Changed the links to the papers as to use doi instead of url.  
+
 ## Changes in version 0.6-1
     
 - The integration routine name `adaptIntegrate` has been changed to its alias `hcubature` to comply with the change in the `cubature` package. 

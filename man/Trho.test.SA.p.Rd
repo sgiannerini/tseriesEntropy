@@ -62,7 +62,7 @@ algorithm, there should not be the need to change them. The routine requires the
 \references{
 Giannerini S., Maasoumi E., Bee Dagum E., (2015), Entropy testing
 for nonlinear serial dependence in time series, \emph{Biometrika}, \bold{102(3)}, 661--675
-\url{http://doi.org/10.1093/biomet/asv007}.
+\doi{10.1093/biomet/asv007}.
 }
 \author{Simone Giannerini<simone.giannerini@unibo.it>}
 \seealso{See Also \code{\link{Srho.ts}}, \code{\link{surrogate.SA}}, \code{\link{Trho.test.SA}}.}

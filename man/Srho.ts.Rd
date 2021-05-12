@@ -57,7 +57,7 @@ Maasoumi E., (1993) A compendium to information theory in economics and economet
 
 Giannerini S., Maasoumi E., Bee Dagum E., (2015), Entropy testing
 for nonlinear serial dependence in time series, \emph{Biometrika}, \bold{102(3)}, 661--675
-\url{http://doi.org/10.1093/biomet/asv007}.
+\doi{10.1093/biomet/asv007}.
 }
  \author{Simone Giannerini<simone.giannerini@unibo.it>}
 

@@ -29,7 +29,7 @@ A list with the following elements:
 \references{
 Giannerini S., Maasoumi E., Bee Dagum E., (2015), Entropy testing
 for nonlinear serial dependence in time series, \emph{Biometrika}, \bold{102(3)}, 661--675
-\url{http://doi.org/10.1093/biomet/asv007}.
+\doi{10.1093/biomet/asv007}.
 
 Bickel, P., Buhlmann, P., (1999). A new mixing notion and
 functional central limit theorems for a sieve bootstrap in time
