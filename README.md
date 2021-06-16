@@ -11,7 +11,7 @@ Some routines have a parallel version that can be used in a multicore/cluster en
 
 
 ## Authors
- - [Simone Giannerini, University of Bologna](https://simonegiannerini.net) 
+ - [Simone Giannerini, University of Bologna](https://www.unibo.it/sitoweb/simone.giannerini/en) 
 
 ## Installation
 

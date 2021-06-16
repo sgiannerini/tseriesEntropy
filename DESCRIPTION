@@ -1,6 +1,6 @@
 Package: tseriesEntropy
 Title: Entropy Based Analysis and Tests for Time Series
-Date: 2021-05-02
+Date: 2021-06-16
 Version: 0.7-0
 Author: Simone Giannerini
 Depends: R (>= 2.14.0)

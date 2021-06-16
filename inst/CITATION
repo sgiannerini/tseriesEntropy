@@ -10,8 +10,8 @@ citHeader("To cite the 'tseriesEntropy' package in publications use:")
          author = c(
            person("Simone", "Giannerini", role = c("aut","cre"), email = "simone.giannerini@unibo.it")
          ),
-         year = "2017",
-         note = "R package version 0.6-1",
+         year = "2021",
+         note = "R package version 0.7-0",
          url = "https://CRAN.R-project.org/package=tseriesEntropy",
          key = "tseriesEntropy-package",
          textVersion = "Giannerini S. (2017) tseriesEntropy: entropy based analysis and tests for time series. R package version 0.6-0, <URL: http://CRAN.R-project.org/package=tseriesEntropy>."

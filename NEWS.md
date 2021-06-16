@@ -2,9 +2,7 @@
 
 ## Changes in version 0.7-0
 
-- The workhorse function `Srho.func` and its Fortran engine have been rewritten as to allow generic non-diagonal bandwidth selectors.
-  Also, the Fortran code has been vectorized and now the `hcubature` routine can take advantage from this. The routines for computing the bivariate bandwidths have been amended as to output a matrix.
-  The old routines are still in the source code but not exported and they will be removed in a future release. A new option `bdiag` has been added to `Srho.ts` and related files. If `bdiag=FALSE`, then the bandwitdh matrix is unstructured.
+- The workhorse function `Srho.func` and its Fortran engine have been rewritten as to allow generic non-diagonal bandwidth selectors. Also, the Fortran code has been vectorized and now the `hcubature` routine can take advantage from this. The routines for computing the bivariate bandwidths have been amended as to output a matrix. The old routines are still in the source code but not exported and they will be removed in a future release. A new option `bdiag` has been added to `Srho.ts` and related files. If `bdiag=FALSE`, then the bandwitdh matrix is unstructured.
 
 - Fixed two bugs in the Fortran routine `Srhosum`.
 
